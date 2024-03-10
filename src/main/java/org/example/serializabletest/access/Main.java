@@ -1,8 +1,5 @@
 package org.example.serializabletest.access;
 
-import java.io.InputStream;
-import java.util.HashMap;
-
 public class Main {
     public String publicData;
     protected String protectedData;
@@ -14,9 +11,9 @@ public class Main {
     }
 }
 
-class A{
+class A {
 }
 
-class B extends A{
+class B extends A {
 }
 
